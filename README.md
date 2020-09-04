@@ -18,7 +18,7 @@
   --------------------------------------------------------------------
   <h3><strong>Bc.vc:</strong></h3>
   https://bc.vc/panel/api.php <strong>adresine</strong> gidin.
-  <img src=https://hizliresim.com/DQQhVn></img>
+  <img src=https://imgur.com/YXbQS58></img>
   --------------------------------------------------------------------
   <h3><strong>Urltuk:</strong></h3>
   https://urlturk.com/member/tools/api <strong>adresine</strong> gidin.
@@ -27,7 +27,9 @@
 # Bit.ly Kullanıcı Adını Görüntüleme
 
   https://bit.ly <strong>adresine</strong> gidin.
+  <br>
   <img src=https://hizliresim.com/zfhiTe></img>
+  <br>
   <img src=https://hizliresim.com/hFFR53></img>
   
 </html>
