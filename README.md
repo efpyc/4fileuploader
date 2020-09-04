@@ -22,7 +22,9 @@
   <h3><strong>Linux</strong></h3>
   <br>
   <code>pip3 install -r requirements.txt</code>  
-
+  <h1><strong>Kullanım:</strong></h1>
+  <br>
+  <code>python3 4fileuploader.py</code>
 # API Nasıl Alınır ?
 
   <h3><strong>Tr.link:</strong></h3>
