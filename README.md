@@ -9,6 +9,15 @@
   Urlturk
 
   NOT: <strong>BİT.LY HARİÇ</strong> yukarıdaki servislerde <strong>API</strong> almanız gerekmektedir... <strong>bc.vc de uid de gerekiyor.</strong>
+  <h1><strong>Kurulum:</strong></h1>
+  <br>
+  <h3><strong>Windows</strong></h3>
+  <br>
+  <code>pip install -r requirements.txt</code>
+  <br>
+  <h3><strong>Linux</strong></h3>
+  <br>
+  <code>pip3 install -r requirements.txt</code>  
 
 # API Nasıl Alınır ?
 
@@ -24,7 +33,7 @@
   https://urlturk.com/member/tools/api <strong>adresine</strong> gidin.
   <img src=https://github.com/4lp3r/4fileuploader/blob/master/urlturk.png></img>
   <br>
-<h1><strong>Bit.ly Kullanıcı Adını Görüntüleme</strong></h1>
+  <h1><strong>Bit.ly Kullanıcı Adını Görüntüleme</strong></h1>
   https://bit.ly <strong>adresine</strong> gidin.
   <br>
   <img src=https://github.com/4lp3r/4fileuploader/blob/master/bitly1.png></img>
