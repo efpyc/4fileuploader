@@ -4,8 +4,11 @@
   <h4>Ardından <strong>anonfiles.com</strong> a upload edilen dosyanın linkini şu servislerde kısaltır:</h4>
 
   Bc.vc
+  <br>
   Bit.ly
+  <br>
   Tr.link (Ay.link)
+  <br>
   Urlturk
 
   NOT: <strong>BİT.LY HARİÇ</strong> yukarıdaki servislerde <strong>API</strong> almanız gerekmektedir... <strong>bc.vc de uid de gerekiyor.</strong>
