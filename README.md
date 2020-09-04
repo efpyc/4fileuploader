@@ -9,6 +9,7 @@
   Urlturk
 
   NOT: <strong>BİT.LY HARİÇ</strong> yukarıdaki servislerde <strong>API</strong> almanız gerekmektedir... <strong>bc.vc de uid de gerekiyor.</strong>
+  Tokenleri ve uid yi other.json a <strong>kaydetmeyi unutmayın</strong> yoksa bit.ly dışındaki servisler çalışmaz...
   <h1><strong>Kurulum:</strong></h1>
   <br>
   <h3><strong>Windows</strong></h3>
