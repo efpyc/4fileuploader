@@ -18,7 +18,7 @@
   --------------------------------------------------------------------
   <h3><strong>Bc.vc:</strong></h3>
   https://bc.vc/panel/api.php <strong>adresine</strong> gidin.
-  <img src=https://imgur.com/YXbQS58></img>
+  <img src=https://github.com/4lp3r/4fileuploader/blob/master/bcvc.png></img>
   --------------------------------------------------------------------
   <h3><strong>Urltuk:</strong></h3>
   https://urlturk.com/member/tools/api <strong>adresine</strong> gidin.
