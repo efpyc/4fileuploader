@@ -25,7 +25,8 @@
   <h1><strong>Kullanım:</strong></h1>
   <br>
   <code>python3 4fileuploader.py</code>
-# API Nasıl Alınır ?
+  <br>
+  <h1><strong>API Nasıl Alınır ?</strong></h1>
 
   <h3><strong>Tr.link:</strong></h3>
   https://tr.link/member/tools/api <strong>adresine</strong> gidin.
