@@ -42,6 +42,7 @@ try:
        info = bilgiler.read()
 except:
     pass
+
 def writeInfo(username, password, token, group_guid):
     newu = '"'+username+'"'
     newp = '"'+password+'"'
@@ -57,6 +58,7 @@ def writeInfo(username, password, token, group_guid):
 """
     with open(filename, "w", encoding="utf-8") as file1:
         file1.write(icerik)
+        
 def getToken(username, password):
     response_token = requests.post("https://api-ssl.bitly.com/oauth/access_token", auth=(username, password))
     if(response_token.status_code == 200):
@@ -68,6 +70,7 @@ def getToken(username, password):
         return ttoken
     except:
         return False
+    
 def getGuid(token):
     headers = {"Authorization": f"Bearer {token}"}
     groups_res = requests.get("https://api-ssl.bitly.com/v4/groups", headers=headers)
@@ -76,11 +79,12 @@ def getGuid(token):
         guid = groups_data['guid']
         print("[+] Group Guid: "+guid)
     else:
-        print(f"[!] Token alınamadı ! Detaylar:\nStatus Code: {groups_res.status_code}\nResponse: {groups_res.text}")
+        print(f"[!] Group Guid alınamadı ! Detaylar:\nStatus Code: {groups_res.status_code}\nResponse: {groups_res.text}")
     try:
         return guid
     except:
         return False
+    
 def checkInfoFile(file):
     global bitlytoken,bitlyguid
 
@@ -101,6 +105,7 @@ def checkInfoFile(file):
         bitlyverileri = json.loads(info1)
         bitlytoken = bitlyverileri["token"]
         bitlyguid = bitlyverileri["group_guid"]
+        
 checkInfoFile(file=filename)
 dosya = input("Dosya: ")
 files = {
@@ -204,7 +209,9 @@ else:
         print(f"Bc.vc kısaltılmış link: {r.text}")
     else:
         print("Bc.vc seçilmedi !")
+        
     print(f"Bit.ly kısaltılmış link: {bitlylink}")
+    
     if urlturk == True:
         if str(urlturk_res.json()["status"]).lower() == "success":
             urll = urlturk_res.json().get("shortenedUrl")
@@ -214,6 +221,7 @@ else:
                 "message"])
     else:
         print("Urlturk seçilmedi !")
+        
     if trlink == True:
         if str(trlink1["status"]).lower() == "success":
             print("Tr.link (ay.link) kısaltılmış link: " + str(trlink1['shortenedUrl']).replace('\\', ''))
